@@ -14,6 +14,7 @@ import { ProductItemComponent } from './product-item/product-item.component';
   imports: [
     CommonModule,
     ShopRoutingModule
-  ]
+  ],
+  exports: [ShopComponent]
 })
 export class ShopModule { }
